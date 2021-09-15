@@ -6,7 +6,7 @@ Then import and read the data. Understand some necessary things like info decrip
 The dataset have 666 row with 75 columns. The data set's main objective is to find out birth wieght of babies early from different factors of mother during pregnency.<br>
 In the data set there have childwt. which is our target column or dependent column and all other columns are independent column. The independent columns are like mothers physical stuation, environmental fector, habit, desease and many more. <br>On basis of mothers that type of condition we will predict the child's birth weight.<br>
 
-<h1><b>data cleaning</b><h1><br>
+<h1><b>data cleaning</b></h1><br>
 then I have cleaned the data. drop the columns where there have null valuemore then 80% and fill the other null value with most frequent value.<br>
 Binarized the childwt column<br>
 There in the data logit column indicate <br>
