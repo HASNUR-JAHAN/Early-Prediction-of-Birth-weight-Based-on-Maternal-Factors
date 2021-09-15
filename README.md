@@ -1,5 +1,5 @@
-The data which was given to me was to predict early birth weight of children during mother's pregnency on basis of some maternal fectors.<br>
-For building a model to predict warly birth wight I have gone through several process. They are:<br>
+The data which was given to me was to predict early birth weight of children during mother's pregnancy on basis of some maternal factors.<br>
+For building a model to predict early birth weight I have gone through several process. They are:<br>
 
 At first import all necessary libraries.<br>
 Then import and read the data. Understand some necessary things like info decription for the data<br>
@@ -42,9 +42,9 @@ R Square score:88.34%<br>
 Mean_squared_error:2.0%<br>
 
 <b>Support vector mechine</b>
-Mechine accuracy:96.5%<br>
-Mechine R Square score:79.60%<br>
-Mechine mean_squared_error:3.50%<br>
+Accuracy:96.5%<br>
+R Square score:79.60%<br>
+Mean_squared_error:3.50%<br>
 
 <b>K neighbours classifier</b>
 accuracy:87.0%<br>
@@ -65,8 +65,7 @@ Support vector mechine: AUROC = 0.937<br>
 K-Neighbours: AUROC = 0.721<br>
 Gaussian Naive Bayes: AUROC = 0.945<br>
 
-I have also make a logistic regression model with K-fold cross validation method.
-and got score 97%
+I have also make a logistic regression model with K-fold cross validation method and got score 97%
 
 
 <b>So, according to the model accuracy and others criteria we can tell the logistic regression model with holdout cross validation method perform better than any other models.</b>
